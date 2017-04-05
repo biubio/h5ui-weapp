@@ -1,0 +1,11 @@
+{
+    "pages": [
+        "page/index/index"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "H5UI",
+        "navigationBarBackgroundColor": "#FFF",
+        "backgroundColor": "#F5F6F7"
+    }
+}

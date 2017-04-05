@@ -1,2 +1,3 @@
-# h5ui-weapp
-H5UI小程序
+# H5UI for weApp
+
+H5UI微信小程序

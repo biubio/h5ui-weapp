@@ -1,0 +1,122 @@
+.example-home_hd {
+    padding: 30px 30px 20px;
+    text-align: center;
+}
+.example-home_hd .h5ui-logo{
+    width: 124px;
+    height: 50px;
+    display: block;
+    background: url("http://s.h5ui.io/img/example/logo.png?201612081905") no-repeat;
+    background-size: 144px;
+    margin: 0 auto;
+}
+.example-home_hd text{
+    font-size: 14px;
+    padding-top: 7px;
+    color: #999;
+    margin: 0;
+}
+
+.example-home_grid_hd{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin: 0;
+    padding: 8px 15px;
+}
+
+.example-home_grid_bd {
+    margin-top: 15px;
+}
+
+.h5ui-grid_item{
+    color: #999;
+}
+
+.h5ui-grid_item_icon {
+    background: url("http://s.h5ui.io/img/example/icons.png?2016120081905") no-repeat;
+    background-size: 32px;
+}
+.icon-grid_form{
+     background-position: 0 0;
+ }
+.icon-grid_slider{
+     background-position: 0 -32px;
+ }
+.icon-grid_switch{
+     background-position: 0 -64px;
+ }
+.icon-grid_checkbox{
+     background-position: 0 -96px;
+ }
+.icon-grid_radio{
+     background-position: 0 -128px;
+ }
+.icon-grid_select{
+     background-position: 0 -160px;
+ }
+.icon-grid_button{
+     background-position: 0 -192px;
+ }
+.icon-grid_navbar{
+     background-position: 0 -224px;
+ }
+.icon-grid_tab{
+     background-position: 0 -256px;
+ }
+.icon-grid_grid{
+     background-position: 0 -288px;
+ }
+.icon-grid_list{
+     background-position: 0 -320px;
+ }
+.icon-grid_dialog{
+     background-position: 0 -352px;
+ }
+.icon-grid_modal{
+     background-position: 0 -384px;
+ }
+.icon-grid_toast{
+     background-position: 0 -416px;
+ }
+.icon-grid_toptips{
+     background-position: 0 -448px;
+ }
+.icon-grid_alert{
+     background-position: 0 -480px;
+ }
+.icon-grid_msg{
+     background-position: 0 -512px;
+ }
+.icon-grid_timeline{
+     background-position: 0 -544px;
+ }
+.icon-grid_lazyload{
+     background-position: 0 -576px;
+ }
+.icon-grid_more{
+     background-position: 0 -608px;
+}
+
+.example-copyright {
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.example-copyright.fixed{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.example-copyright .flag{
+    width: 66px;
+    height: 24px;
+    background: url("http://s.h5ui.io/img/example/flag.png?201612081905") no-repeat;
+    background-size: 66px;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,88 @@
+<view class="h5ui-page">
+    <view class="example-home_hd">
+        <view class="h5ui-logo"></view>
+        <text>Mobile front-end CSS framework</text>
+    </view>
+
+    <view class="h5ui-grid example-home_grid_bd clearfix">
+        <navigator url="example/form.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_form"></view>
+            Form
+        </navigator>
+        <navigator url="example/slider.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_slider"></view>
+            Slider
+        </navigator>
+        <navigator url="example/switch.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_switch"></view>
+            Switch
+        </navigator>
+        <navigator url="example/checkbox.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_checkbox"></view>
+            Checkbox
+        </navigator>
+        <navigator url="example/radio.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_radio"></view>
+            Radio
+        </navigator>
+        <navigator url="example/select.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_select"></view>
+            Select
+        </navigator>
+        <navigator url="example/navbar.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_navbar"></view>
+            Navbar
+        </navigator>
+        <navigator url="example/button.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_button"></view>
+            Button
+        </navigator>
+        <navigator url="example/tab.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_tab"></view>
+            Tab
+        </navigator>
+    </view>
+
+    <view class="h5ui-grid example-home_grid_bd clearfix">
+        <navigator url="example/list.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_list"></view>
+            List
+        </navigator>
+        <navigator url="example/modal.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_modal"></view>
+            Modal
+        </navigator>
+        <navigator url="example/dialog.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_dialog"></view>
+            Dialog
+        </navigator>
+        <navigator url="example/toptips.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_toptips"></view>
+            TopTips
+        </navigator>
+        <navigator url="example/toast.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_toast"></view>
+            Toast
+        </navigator>
+        <navigator url="example/msg.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_msg"></view>
+            Msg
+        </navigator>
+        <navigator url="example/timeline.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_timeline"></view>
+            TimeLine
+        </navigator>
+        <navigator url="example/lazyload.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_lazyload"></view>
+            Lazyload
+        </navigator>
+        <navigator url="example/more.html" class="h5ui-grid_item">
+            <view class="h5ui-grid_item_icon icon-grid_more"></view>
+            More
+        </navigator>
+    </view>
+</view>
+
+<view class="example-copyright">
+    <view class="flag"></view>
+</view>

@@ -1,0 +1,71 @@
+page{
+    background-color: #F5F6F7;
+    height: 100%;
+}
+.page {
+    font-family: -apple-system-font, "Helvetica Neue", sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 17px;
+    overflow: hidden;
+}
+
+/* clear */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* Grid */
+.h5ui-grid_item {
+    width: 33.3333%;
+    background: #fff;
+    display: block;
+    text-align: center;
+    float: left;
+    padding: 20px 0;
+    color: #666;
+    font-size: 14px;
+    position: relative;
+}
+.h5ui-grid_item::after,
+.h5ui-grid_item::before{
+    content: " ";
+    display: block;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    z-index: 1;
+}
+.h5ui-grid_item::after{
+    height: 200%;
+    border-right: 1px solid #E5E5E5;
+}
+.h5ui-grid_item::before{
+    height: 0;
+    border-top: 1px solid #E5E5E5;
+}
+.h5ui-grid_item:nth-child(3n)::after{
+    border-right: none;
+}
+.h5ui-grid_item:nth-last-child(-n+3)::before{
+    bottom: 0;
+    height: 200%;
+    border-bottom: 1px solid #E5E5E5;
+}
+.h5ui-grid_item_icon{
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 10px auto 5px;
+}
